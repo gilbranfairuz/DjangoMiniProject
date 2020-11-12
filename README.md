@@ -1,0 +1,2 @@
+# DjangoMiniProject
+# DjangoMiniProject
