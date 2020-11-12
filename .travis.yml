@@ -14,5 +14,5 @@ install:
 
 
 script:
-  - ..\Env\Scripts\activate.bat
+  - cd \Env\Scripts\activate.bat
   - python manage.py test
