@@ -3,15 +3,5 @@ language : python
 python : 
   - "3.9.0"
 
-env:
-  - SECRET_KEY='TEST'
-
-services:
-  - mysql
-
-install:
-  - pipenv install
-
-
-script:
-  - pytest
+virtualenv :
+  system_site_packages: true
