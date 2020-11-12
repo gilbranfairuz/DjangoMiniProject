@@ -3,5 +3,8 @@ language : python
 python : 
   - "3.9.0"
 
+install :
+  - mysql
+
 scripts: 
   - python manage.py test
